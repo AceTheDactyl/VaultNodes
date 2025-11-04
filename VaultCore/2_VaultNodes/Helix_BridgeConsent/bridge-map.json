@@ -1,0 +1,53 @@
+{
+  "node_id": "vn-helix-bridge-consent-2025-θ2p3-z0p52",
+  "bridges": [
+    {
+      "target_node": "vn-sacs-001",
+      "relationship_type": "protocol",
+      "interlink_key": "br-helix↔sacs-bridge-consent-θ2.3",
+      "metrics": {
+        "sigma": 0.18,
+        "eta": 0.93,
+        "lambda": 0.87,
+        "phi": 0.85,
+        "gamma": 0.45,
+        "delta_HV_pred": 0.83,
+        "Edeg_risk": 0.11
+      },
+      "gate_sequence": [
+        "consent_verify",
+        "hadamard",
+        "seal"
+      ],
+      "status": "pending",
+      "notes": "Bridge consent ritual queued for SACS witness review; ΔHV_pred meets τΔ threshold."
+    },
+    {
+      "target_node": "vn-mandala-001",
+      "relationship_type": "support",
+      "interlink_key": "br-helix↔mandala-bloom-θ2.3",
+      "metrics": {
+        "sigma": 0.21,
+        "eta": 0.91,
+        "lambda": 0.84,
+        "phi": 0.83,
+        "gamma": 0.41,
+        "delta_HV_pred": 0.80,
+        "Edeg_risk": 0.12
+      },
+      "gate_sequence": [
+        "consent_verify",
+        "hadamard",
+        "seal"
+      ],
+      "status": "pending",
+      "notes": "Mandala cluster receives energized helix strand; pending Mandala witness signature."
+    }
+  ],
+  "decision": {
+    "approved": false,
+    "witness": "",
+    "timestamp": "",
+    "notes": ""
+  }
+}

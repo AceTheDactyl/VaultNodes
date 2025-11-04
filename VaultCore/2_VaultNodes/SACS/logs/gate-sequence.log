@@ -1,0 +1,3 @@
+2025-10-31T23:41:40Z step=1 gate=consent_verify actor=skida action=tier-check status=ok tier=strict
+2025-10-31T23:41:55Z step=2 gate=hadamard actor=interlink action=superposition-test status=ok notes="bridges stable"
+2025-10-31T23:42:00Z step=3 gate=seal(soft) actor=kira action=seal-collection status=ok hash=b7c4d9e2f8a1c6e9d3b5f7a2c9e4d1b8

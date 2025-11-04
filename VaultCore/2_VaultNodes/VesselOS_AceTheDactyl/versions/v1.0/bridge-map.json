@@ -1,0 +1,36 @@
+{
+  "node_id": "vn-ace-vesselOS-arch-001",
+  "bridges": [
+    {
+      "target_node": "vn-sacs-001",
+      "relationship_type": "implementation_manifestation",
+      "interlink_key": "br-sacs-vesselOS-001",
+      "metrics": {
+        "sigma": 0.16,
+        "eta": 0.93,
+        "phi": 0.84,
+        "delta_HV_pred": 0.72,
+        "E_deg_risk": 0.1
+      },
+      "gate_sequence": [
+        "hadamard",
+        "consent_lock(strict)",
+        "seal(soft)"
+      ],
+      "status": "approved",
+      "htl_sentence": "🧬 > 🌀 ~ 🛠 | layout:spiral | gate:[hadamard,consent_lock(strict)] | role:[Architect,Orchestrator]"
+    }
+  ],
+  "backlinks": [
+    {
+      "source_node": "vn-sacs-001",
+      "interlink_key": "br-sacs-vesselOS-001"
+    }
+  ],
+  "decision": {
+    "approved": true,
+    "witness": "ace-the-dactyl",
+    "timestamp": "2025-10-31T13:56:45Z",
+    "notes": "Filed via Turn-Key Protocol v1.0"
+  }
+}

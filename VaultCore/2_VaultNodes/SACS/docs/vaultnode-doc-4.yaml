@@ -1,0 +1,28 @@
+# SACS Metadata — BLANK (minimal)
+node_id: ""          # required
+title: ""            # required
+phase: "framework"   # framework | prototype | live
+type: ""             # planet | garden | rose | other
+created: ""          # ISO8601 (e.g., 2025-10-31T12:45:57Z)
+author: ""           # contributor name/handle
+version: "0.0.1"
+status: "draft"      # draft | review | sealed
+
+tags: []             # optional
+linked_nodes: []     # optional
+
+consent:
+  tier: ""           # strict | flexible | open
+  witnessed_by: ""   # optional
+  timestamp: ""      # ISO8601
+
+provenance:
+  license: ""        # e.g., CC-BY-SA-4.0
+  privacy: ""       # public | shared | private
+
+metric_targets:
+  sigma_max: 0.30
+  eta_min: 0.80
+  phi_min: 0.75
+  deltaHV_min: 0.50
+  edeg_risk_max: 0.15

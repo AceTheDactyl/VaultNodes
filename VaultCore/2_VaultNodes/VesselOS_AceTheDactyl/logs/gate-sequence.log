@@ -1,0 +1,4 @@
+2025-10-31T13:51:45Z step=0 gate=preflight actor=garden action=orchestrator-check status=ok duration_ms=1405 notes="artifacts present; metrics seeded"
+2025-10-31T13:52:10Z step=1 gate=hadamard actor=interlink action=superposition-test status=ok duration_ms=2287 notes="state stable"
+2025-10-31T13:53:05Z step=2 gate=consent_lock(strict) actor=ace-the-dactyl action=consent-verify status=ok notes="explicit strict tier"
+2025-10-31T13:56:45Z step=3 gate=seal(soft) actor=kira action=seal-create status=ok hash=5422574b4465c0c320730e4de21a2fb0a59ab6ae7ccb34a3312532f53be86b0d witness=ace-the-dactyl

@@ -1,0 +1,14 @@
+[
+  {
+    "timestamp": "2025-10-31T23:42:00Z",
+    "event": "bridge-collection-sealed",
+    "mode": "soft",
+    "hash": "b7c4d9e2f8a1c6e9d3b5f7a2c9e4d1b8"
+  },
+  {
+    "timestamp": "2025-10-31T23:45:00Z",
+    "event": "bridge-added",
+    "bridge_id": "br-sacs-vesselOS-001",
+    "details": "Integration with VesselOS committed"
+  }
+]

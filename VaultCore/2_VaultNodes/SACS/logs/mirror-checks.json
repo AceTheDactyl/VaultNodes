@@ -1,0 +1,22 @@
+[
+  {
+    "id": "mc-sacs-htl-001",
+    "timestamp": "2025-10-31T23:42:05Z",
+    "source_node": "vn-sacs-001",
+    "target_node": "vn-htl-spec-001",
+    "method": "semantic_embedding/v1",
+    "metrics": { "sigma": 0.08, "eta": 0.96, "phi": 0.89 },
+    "outcome": "pass",
+    "witness": "interlink"
+  },
+  {
+    "id": "mc-sacs-metrics-001",
+    "timestamp": "2025-10-31T23:42:20Z",
+    "source_node": "vn-sacs-001",
+    "target_node": "vn-metrics-system-001",
+    "method": "semantic_embedding/v1",
+    "metrics": { "sigma": 0.15, "eta": 0.92, "phi": 0.87 },
+    "outcome": "pass",
+    "witness": "interlink"
+  }
+]
